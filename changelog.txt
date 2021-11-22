@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2021-11-22
+  Changes:
+    - Removed the cinematic zoom upon entering/leaving vehicles. This looked cool, but broke other mods which used vehicle events (notably, Space Exploration and Vehicle Snap).
+    - Scales are now relative to the global display scale, so they don't need to be adjusted for high-DPI displays (e.g. on macOS).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2021-01-29
+  Info:
+    - Initial release

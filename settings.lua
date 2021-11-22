@@ -1,27 +1,12 @@
 data:extend({
     {
-        name = "vzoom-speed",
-        type = "string-setting",
-        setting_type = "runtime-per-user",
-        default_value = "medium",
-        allowed_values = {
-            "zero",
-            "vfast",
-            "fast",
-            "medium",
-            "slow",
-        },
-        order = 0,
-    },
-
-    {
         name = "vzoom-lv-walk",
         type = "double-setting",
         setting_type = "runtime-per-user",
         default_value = 1.0,
-        minimum_value = 0.2,
+        minimum_value = 0.1,
         maximum_value = 4.0,
-        order = 1,
+        order = 0,
     },
 
     {
@@ -31,7 +16,7 @@ data:extend({
         default_value = 0.5,
         minimum_value = 0.1,
         maximum_value = 4.0,
-        order = 2,
+        order = 1,
     },
 
     {
@@ -41,7 +26,7 @@ data:extend({
         default_value = 0.5,
         minimum_value = 0.1,
         maximum_value = 4.0,
-        order = 3,
+        order = 2,
     },
 
     {
@@ -51,6 +36,6 @@ data:extend({
         default_value = 1.0,
         minimum_value = 0.1,
         maximum_value = 4.0,
-        order = 4,
+        order = 3,
     },
 })
